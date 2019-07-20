@@ -45,6 +45,11 @@ html, body, #root {
   flex-basis: 100%;
 }
 
+.flex.row {
+  flex-direction: row;
+  align-items: center;
+}
+
 .login {
   justify-content: center;
   padding: 3rem;
@@ -99,4 +104,14 @@ button.primary {
   padding: 1rem 1.5rem;
   background-color: #06BEBD;
   border-radius: 2rem;
+}
+
+.thanks {
+  justify-content: center;
+  padding: 3rem;
+  background: white;
+  max-width: 40em;
+  margin: auto;
+
+  text-align: justify;
 }

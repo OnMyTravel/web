@@ -7,12 +7,12 @@ export default () => {
         <div className="login flex">
         <h1>Inscription</h1>
 
-        <form className="flex">
-            <label for="name">Nom ou pseudonyme:</label>
+        <form className="flex" action="/thanks">
+            <label htmlFor="name">Nom ou pseudonyme:</label>
             <input id="name" type="text" placeholder="exemple: Adrien" title="exemple: Adrien" />
-            <label for="email">Adresse electronique:</label>
-            <input type="text" placeholder="exemple: me@onmytravel.net" title="exemple: me@onmytravel.net" />
-            <label for="password">Mot de passe:</label>
+            <label htmlFor="email">Adresse electronique:</label>
+            <input id="email" type="text" placeholder="exemple: me@onmytravel.net" title="exemple: me@onmytravel.net" />
+            <label htmlFor="password">Mot de passe:</label>
             <input id="password" type="password" />
             <PrimaryAction onClick={() => {}}>Créer mon compte</PrimaryAction>
         </form>
