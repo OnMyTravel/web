@@ -73,6 +73,13 @@ input {
   border: none;
 }
 
+a:focus,
+input:focus {
+  outline-width: 1px;
+  outline-style: dotted ;
+  outline-color: #596379;
+}
+
 label {
   text-align: left;
 }
