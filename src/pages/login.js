@@ -5,16 +5,14 @@ import PrimaryAction from '../components/PrimaryAction'
 export default () => {
     return (<div className="flex login-wallpaper">
         <div className="login flex">
-        <h1>Inscription</h1>
+        <h1>Connexion</h1>
 
-        <form className="flex" action="/thanks">
-            <label htmlFor="name">Nom ou pseudonyme:</label>
-            <input id="name" type="text" placeholder="exemple: Adrien" title="exemple: Adrien" />
+        <form className="flex">
             <label htmlFor="email">Adresse electronique:</label>
             <input id="email" type="text" placeholder="exemple: me@onmytravel.net" title="exemple: me@onmytravel.net" />
             <label htmlFor="password">Mot de passe:</label>
             <input id="password" type="password" />
-            <PrimaryAction onClick={() => {}}>Créer mon compte</PrimaryAction>
+            <PrimaryAction onClick={() => {}}>Me connecter</PrimaryAction>
         </form>
 
         <p className="legal">Les informations recueillies à votre connexion sont enregistrées 
